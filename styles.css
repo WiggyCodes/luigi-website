@@ -1,3 +1,88 @@
-img.norway-logo {
-  padding: 25px;
+@media only screen and (min-width: 1024px) {
+  .info-group {
+    display: flex;
+    gap: 10px;
+  }
+  .info-card-container {
+    display: flex;
+    gap: 32px;
+  }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+  padding: 0;
+  margin: 0;
+}
+
+section.main-section-1 {
+  /* display: flex;
+  position: fixed; */
+  background-image: url("images/norway-home-bg-this.jpg");
+  background-size: contain;
+}
+
+.home-container {
+  position: relative;
+  display: inline-block;
+}
+
+.home-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 42px;
+}
+
+
+.info-about-us {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.info-about-us h1 {
+  margin-bottom: 24px;
+  font-size: 52px;
+}
+
+.info-about-us p {
+  font-size: 12px;
+}
+
+.info-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-card {
+
+}
+
+.review-container {
+  display: flex;
+  gap: 24px;
+  color: white;
+}
+
