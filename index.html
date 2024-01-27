@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top ">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary ">
     <div class="container-fluid ">
       <a class="navbar-brand" href="/">
         <img class="img-fluid " src="images/norway-logo.png" alt="hehe" width="300px" height="85px">
@@ -37,23 +37,27 @@
   <main>
 
     <section class="home-container">
-      <img src="images/norway-home-bg-this.jpg" alt="norway home background" width="100%" >
-      <div class="text-overlay container-fluid">
-        <p>your perfect journey</p>
-        <h1 class="display-1">norway</h1>
+      <img class="object-fit-cover border rounded" src="images/norway-home-bg-this.jpg" alt="norway home background" width="100vw" height="" >
+      <div class="text-overlay-container container-fluid overflow-hidden">
+        <div>
+          <p style="margin:0; font-style: italic; text-decoration: underline;" >your perfect journey</p>
+          <h1 class="responsive-text shadow-lg">Norway</h1>
+        </div>
           <!-- <img src="" alt=""> -->
-          <p class="p-5">Next Trip to Norway</p>
-          <p>$2300 17 NOV. - 22 NOV.</p>
-          <p>10 days of travel and 5 unique places in Norway are waiting for us ...</p>
+        <div>
+          <p class="lead">Next Trip to Norway</p>
+          <h5 class="h5">$2300 17 NOV. - 22 NOV.</h5>
+          <h6 class="h6">10 days of travel and 5 unique places in Norway are waiting for us ...</h6>
           <a class="btn btn-primary" role="button" href="/about" style="color:white ">Read More</a>
+        </div>
       </div>
     </section>
 
     <section class="info-container">
+      <p class="h6">ABOUT US</p>
       <section class="info-group">
         <div>
           <div class="info-about-us">
-            <p class="h6">ABOUT US</p>
             <h1 class="h1">Expertly crafted tours to Norway. 10 days of admiring nordic cities. fjords, and waterfalls.</h1>
           </div>
         </div>
@@ -64,21 +68,21 @@
       </section>
 
       <section class="info-card-container">
-        <div class="card">
+        <div class="card container-fluid">
           <div class="card-body">
             <h1>01</h1>
             <h2>Contact us</h2>
             <p>Some tour conditions may be changed according to the season. To learn more about the program, please contact us.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card container-fluid">
           <div class="card-body">
             <h1>02</h1>
             <h2>Pick a data</h2>
             <p>We conduct tours all year round, almost every week, but the most comfortable weather for sightseeing is in summer.</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card container-fluid">
           <div class="card-body">
             <h1>03</h1>
             <h2>Start your journey</h2>
@@ -88,8 +92,8 @@
       </section>
     </section>
 
-    <section class="review-container bg-dark">
-      <img src="images/norway-map.png" alt="norway map">
+    <section class="review-container bg-dark container-fluid">
+      <img class="img-fluid" src="images/norway-map.png" alt="norway map" width="30%">
       <section>
         <div>
           <p>━ TOUR ITINERARY</p>
