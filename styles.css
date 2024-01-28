@@ -148,3 +148,21 @@
    justify-content: center;
    gap: 36px;
  }
+
+ .info-norway{
+  flex-direction: column;
+  display: flex;
+  gap: 5px;
+
+
+ }
+
+ footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+ }
